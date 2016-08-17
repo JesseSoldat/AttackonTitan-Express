@@ -3,9 +3,13 @@ var express = require('express')
 
 var app = express();
 
+var routes = require('./routes');
+
 app.set('view engine', 'ejs');
 
 app.use(express.static(path.join(__dirname, 'public')));
+
+app.get('/', routes.home);
 
 var port = 8000;
 app.listen(process.env.PORT || port);
