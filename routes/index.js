@@ -1,5 +1,10 @@
+var charsJSON = require('../characters.json');
+
 exports.home = function(req, res){
-	res.render('home');
+	characters = charsJSON.characters;
+	res.render('home', {
+		characters: characters
+	});
 };
 
 exports.single_char = function(req, res){

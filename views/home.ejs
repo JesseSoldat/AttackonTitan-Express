@@ -9,7 +9,16 @@
 	<img src="/img/homeImg.jpg">
 </div>
 
-<div id="charImg" class="content-padding clearfix"></div>
+<div id="charImgContainer" class="content-padding clearfix">
+<% for (var i = 0; i < characters.length; i++) { %>	
+<div class="charImgWrapper">
+	<a href="/characters/">
+		<img class="charImg" src="/img/<%= characters[i].poster %>">
+	</a>
+</div>
+
+<% } %>
+</div>
 
 <% include partials/footer.ejs %>
 <% include partials/scripts.ejs %>

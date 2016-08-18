@@ -1,23 +1,25 @@
 {
-  "characters": [
+  "characters": [{
+      "id" : "01",
+      "name" : "Eren Yeager",
+      "poster" : "ErenYeager.jpg"
+    },
+
     {
-    "id" : "",
-    "name" : "",
-    "main_characters" : [""],
-    "image" : "",
-    "poster" : "",
-    "hero_image" : ""
-  },
-
-     {
-    "id" : "",
-    "name" : "",
-    "main_characters" : [""],
-    "image" : "",
-    "poster" : "",
-    "hero_image" : ""
-  }
-
-]
+      "id" : "02",
+      "name" : "Mikasa Ackerman",
+      "poster" : "MikasaAckerman.jpg"
+    },
+    {
+      "id" : "03",
+      "name" : "Armin Arlert",
+      "poster" : "ArminArlert.jpg"
+    },
+    {
+      "id" : "04",
+      "name" : "Reiner Braun",
+      "poster" : "ReinerBraun.png"
+    }
+  ]
 
 }
