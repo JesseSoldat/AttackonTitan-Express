@@ -1,3 +1,16 @@
+body {
+	background: black;
+}
 #homeImg {
 	width: 100%;
+}
+#homeImg > img{
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.content-padding {
+	padding-left: 11%;
+	padding-right: 11%;
 }
