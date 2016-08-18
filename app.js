@@ -11,6 +11,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', routes.home);
 
+app.get('*', routes.notFound);
+
 var port = 8000;
 app.listen(process.env.PORT || port);
 
