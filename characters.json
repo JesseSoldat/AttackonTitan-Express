@@ -3,32 +3,39 @@
       "id" : "01",
       "link" : "erenyeager",
       "name" : "Eren Yeager",
-      "poster" : "ErenYeager.jpg"
+      "poster" : "ErenYeager.jpg",
+      "poster2" : "ErenYeagerSingle.png"
+
     },
 
     {
       "id" : "02",
       "link" : "mikasaackerman",
       "name" : "Mikasa Ackerman",
-      "poster" : "MikasaAckerman.jpg"
+      "poster" : "MikasaAckerman.jpg",
+      "poster2" : "MikasaAckermanSingle.png"
+
     },
     {
       "id" : "03",
       "link" : "arminarlert",
       "name" : "Armin Arlert",
-      "poster" : "ArminArlert.jpg"
+      "poster" : "ArminArlert.jpg",
+      "poster2" : "ArminArlertSingle.jpg"
     },
     {
       "id" : "04",
       "link" : "reinerbraun",
       "name" : "Reiner Braun",
-      "poster" : "ReinerBraun.png"
+      "poster" : "ReinerBraun.png",
+      "poster2" : "ReinerBraunSingle.jpg"
     },
      {
       "id" : "05",
       "link" : "annieleonhart",
       "name" : "Annie Leonhart",
-      "poster" : "AnnieLeonhart.png"
+      "poster" : "AnnieLeonhart.png",
+      "poster2" : "AnnieLeonhartSingle.png"
     }
   ]
 

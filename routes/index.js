@@ -19,7 +19,7 @@ exports.single_char = function(req, res){
 	 for (var key in chars) {
 	  	if (chars.hasOwnProperty(key)) {
 	    var val = chars[key];
-	    console.log(val.link);
+	    // console.log(val.link);
 	    if(val.link === link)
 	    	single = val;
   		}
@@ -27,6 +27,9 @@ exports.single_char = function(req, res){
 	console.log(single);
 
 
+	// for(var i = 0; i < chars.length; i++){
+	// 	console.log(chars[i].poster);
+	// }
 
 	res.render('single_char', {single: single});
 };

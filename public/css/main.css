@@ -35,3 +35,14 @@ padding-top: 75px;
 	vertical-align: center;
 }
 
+.singleImgWrapper {
+	width: 100%;
+	margin-bottom: 50px;
+}
+.singleImg {
+	width: 100%;
+}
+
+footer {
+	padding-top: 100px;
+}
