@@ -8,7 +8,27 @@ exports.home = function(req, res){
 };
 
 exports.single_char = function(req, res){
-	res.render('single_char');
+	var link = req.params.link;
+	
+	var chars = charsJSON.characters;
+
+	console.log(link);
+	// console.log(chars);
+
+	var single;
+	 for (var key in chars) {
+	  	if (chars.hasOwnProperty(key)) {
+	    var val = chars[key];
+	    console.log(val.link);
+	    if(val.link === link)
+	    	single = val;
+  		}
+	};
+	console.log(single);
+
+
+
+	res.render('single_char', {single: single});
 };
 
 exports.notFound = function(req, res){

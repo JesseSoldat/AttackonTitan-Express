@@ -1,24 +1,34 @@
 {
   "characters": [{
       "id" : "01",
+      "link" : "erenyeager",
       "name" : "Eren Yeager",
       "poster" : "ErenYeager.jpg"
     },
 
     {
       "id" : "02",
+      "link" : "mikasaackerman",
       "name" : "Mikasa Ackerman",
       "poster" : "MikasaAckerman.jpg"
     },
     {
       "id" : "03",
+      "link" : "arminarlert",
       "name" : "Armin Arlert",
       "poster" : "ArminArlert.jpg"
     },
     {
       "id" : "04",
+      "link" : "reinerbraun",
       "name" : "Reiner Braun",
       "poster" : "ReinerBraun.png"
+    },
+     {
+      "id" : "05",
+      "link" : "annieleonhart",
+      "name" : "Annie Leonhart",
+      "poster" : "AnnieLeonhart.png"
     }
   ]
 
