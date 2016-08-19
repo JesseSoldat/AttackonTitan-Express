@@ -12,19 +12,16 @@ exports.single_char = function(req, res){
 	
 	var chars = charsJSON.characters;
 
-	console.log(link);
-	// console.log(chars);
-
 	var single;
 	 for (var key in chars) {
 	  	if (chars.hasOwnProperty(key)) {
 	    var val = chars[key];
-	    // console.log(val.link);
+	   
 	    if(val.link === link)
 	    	single = val;
   		}
 	};
-	console.log(single);
+	
 
 
 	// for(var i = 0; i < chars.length; i++){
