@@ -21,14 +21,15 @@ exports.single_char = function(req, res){
 	    	single = val;
   		}
 	};
-	
-
 
 	// for(var i = 0; i < chars.length; i++){
 	// 	console.log(chars[i].poster);
 	// }
 
-	res.render('single_char', {single: single});
+	res.render('single_char', {
+		single: single, 
+		characters: chars
+	});
 };
 
 exports.notFound = function(req, res){
